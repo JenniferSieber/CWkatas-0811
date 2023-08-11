@@ -32,7 +32,6 @@ const mispelled = (word1, word2) => {
 console.log(mispelled('versed', 'aversed')); 
 console.log(mispelled('aaversed', 'versed')); 
 console.log(mispelled('versed', 'aaversed')); 
- 
 
 // KATA 3 7kyu
 // https://www.codewars.com/kata/58b972cae826b960a300003e/train/javascript
@@ -49,8 +48,8 @@ console.log(missingWord([29, 31, 8], "The quick brown fox jumps over the lazy do
 // https://www.codewars.com/kata/63a2928176157931b3945090/train/javascript
 const madShout = sidewalk => 'Oi' + 'i'.repeat((sidewalk.indexOf('F') - sidewalk.indexOf('Y') - 1) / 2) + ' F!';
 
-console.log(madShout('----------YF---------'));  //Oi F!
-console.log(madShout('------------Y-------------F---------------')) //'Oiiiiiii F!'
+console.log(madShout('----------YF---------')); 
+console.log(madShout('------------Y-------------F---------------'));
 console.log(madShout('--------Y----------------F-------'));
 
 // KATA 5 7kyu
